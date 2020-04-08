@@ -56,7 +56,9 @@
             "+",
             "-",
             "*",
-            "/"});
+            "/",
+            "^",
+            "root"});
             this.comboBoxOperation.Location = new System.Drawing.Point(127, 13);
             this.comboBoxOperation.Name = "comboBoxOperation";
             this.comboBoxOperation.Size = new System.Drawing.Size(62, 24);

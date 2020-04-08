@@ -96,6 +96,14 @@ namespace Calculator
                     LabelResult.Text = Calculation.Division(FirstNum, SecondNum);
                     break;
 
+                case "^":
+                    LabelResult.Text = Calculation.Exponentiation(FirstNum, SecondNum).ToString();
+                    break;
+
+                case "root":
+                    LabelResult.Text = Calculation.RootExtraction(FirstNum, SecondNum);
+                    break;
+
                 default:
                     break;
             }

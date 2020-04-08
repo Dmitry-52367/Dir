@@ -88,6 +88,14 @@ namespace Calculator
                     LabelResult.Text = Calculation.Subtraction(FirstNum, SecondNum).ToString();
                     break;
 
+                case "*":
+                    LabelResult.Text = Calculation.Multiplication(FirstNum, SecondNum).ToString();
+                    break;
+
+                case "/":
+                    LabelResult.Text = Calculation.Division(FirstNum, SecondNum);
+                    break;
+
                 default:
                     break;
             }

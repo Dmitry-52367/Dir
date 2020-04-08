@@ -17,5 +17,22 @@ namespace Calculator
         {
             return (a - b).ToString();
         }
+
+        public static string Multiplication(double a, double b)
+        {
+            return (a * b).ToString();
+        }
+
+        public static string Division(double a, double b)
+        {
+            if (b == 0)
+            {
+                return "ERROR! Деление на ноль!";
+            }
+            else
+            {
+                return (a / b).ToString();
+            }
+        }
     }
 }
